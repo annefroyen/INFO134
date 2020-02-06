@@ -1,0 +1,44 @@
+header{
+  background-color: magenta;
+  font-family: "Lucida Sans", sans-serif;.
+}
+
+article{
+  background-color: lightgrey;
+  font-family: "Times", serif;
+  max-width: 80%;
+}
+
+footer{
+  background-color: lightgreen;
+  font-family: "Lucida Sans", sans-serif;.
+}
+
+h1{
+  text-align: center;
+}
+
+
+/*
+div header og div footer er header og footer til artiklene.
+*/
+div header, div footer{
+  background-color: initial;
+  font-family: inherit;
+}
+
+ul {
+overflow: hidden;
+list-style-type: none;
+background-color: black;
+}
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+padding: 16px;
+text-decoration: none;
+}

@@ -1,0 +1,44 @@
+
+#remaining{
+
+  text-align:center;
+
+}
+.player2_btns button{
+  color: blue;
+}
+
+.player2_btns{
+ text-align: center;
+}
+
+.player1_btns button{
+  color: pink;
+}
+
+.player1_btns{
+ text-align: center;
+}
+
+button{
+  font-size: 30px;
+ border: 1px;
+ background-color: grey;
+ height:100px;
+ width:100px;
+ cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  [class*="player1"] {
+    background-color: blue;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+     body{
+    background-color: yellow;
+
+  }
+}
