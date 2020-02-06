@@ -4,6 +4,7 @@
 var o1 = {
 bokstaver: "EL",
 tall: 12345,
+"string egenskap med mellomrom": 3
 
 get regNr(){
   return this.bokstaver + this.tall;
@@ -19,8 +20,13 @@ utregning2: function (){
 
 }
 
-o1.bokstaver = "ST"
-o1(tall) = 2345
+//2c
+o1.bokstaver = "ST";
+o1(tall) = 6789;
+o1("string egenkap med mellomrom") = 4;
+
+
+
 
 function minFunksjon (a, b){
   return a + b;
