@@ -1,9 +1,8 @@
 
 
-
-var 01 = {
-bokstaver:"EL",
-
+//2a
+var o1 = {
+bokstaver: "EL",
 tall: 12345,
 
 get regNr(){
@@ -14,7 +13,9 @@ utregning: function(){
   return this.tall / 2
 },
 
-utregning2: function (){return minFunksjon(100,78)}
+utregning2: function (){
+  return minFunksjon(100,78)
+}
 
 }
 
